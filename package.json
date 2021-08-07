@@ -1,0 +1,32 @@
+{
+    "name": "klenty-discussion-app",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+       
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon index.js",
+        "dev": "env-cmd -f ./dev-config/dev.env nodemon index.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "nodemon": "^2.0.12"
+    },
+    "dependencies": {
+        "cors": "^2.8.5",
+        "crypto": "^1.0.1",
+        "env-cmd": "^10.1.0",
+        "errorhandler": "^1.5.1",
+        "express": "^4.17.1",
+        "express-jwt": "^6.0.0",
+        "express-session": "^1.17.1",
+        "install": "^0.13.0",
+        "jsonwebtoken": "^8.5.1",
+        "mongoose": "^5.12.2",
+        "passport": "^0.4.1",
+        "passport-local": "^1.0.0",
+        "secret-key": "^1.5.1"
+    }
+}
